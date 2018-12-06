@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/container"
+
+    android:orientation="vertical"
+
+    android:layout_width="400dp"
+
+    android:layout_height="wrap_content">
+
+
+    <TextView android:id="@+id/TxtTitle"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="Saved Games"
+
+        android:textSize="25dp"
+
+        android:gravity="center_horizontal"
+
+        android:textStyle="bold"
+
+        android:textColor="@color/tblHeaderColor"
+
+        android:layout_below="@+id/BtnMainMenu"/>
+
+
+        <TableLayout android:id="@+id/highScoresTable"
+
+            android:layout_width="fill_parent"
+
+            android:layout_height="wrap_content"
+
+            android:stretchColumns="*"/>
+
+
+
+    <Button android:id="@+id/BtnMenu"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="bottom"
+
+        android:text="Load"
+
+        android:paddingLeft="25dp"
+
+        android:layout_marginLeft="20dp"
+
+        android:layout_alignParentBottom="true"
+
+        android:layout_below="@+id/savedGameScroller"/>
+
+
+</RelativeLayout>

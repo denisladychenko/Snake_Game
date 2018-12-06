@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Snake_game</string>
+    <string name="inv_string">Tap anywhere to start</string>
+    <string name="lost_str">You lost!</string>
+    <string name="play_str">Play</string>
+    <string name="load_game_str">Load Game</string>
+    <string name="save_str">Save</string>
+    <string name="high_score_str">High Score</string>
+    <string name="unknown">Unknown</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="resume">Resume</string>
+    <string name="pause">Pause</string>
+    <string name="player_name">Player name</string>
+    <string name="score">Score:  </string>
+    <string name="save_under">Save under:</string>
+    <string name="ok_str">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="high_score">HighScores</string>
+    <string name="game">game</string>
+    <string name="sound_thread">SoundThread</string>
+    <string name="saved_games">SavedGames</string>
+</resources>
